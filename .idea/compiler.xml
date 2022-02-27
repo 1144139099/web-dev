@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web-dev" />
+        <module name="day01-servlet" />
         <module name="quickstart" />
+        <module name="web-dev" />
         <module name="book-online" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="book-online" target="1.11" />
+      <module name="day01-servlet" target="1.11" />
       <module name="quickstart" target="1.11" />
       <module name="web-dev" target="1.11" />
     </bytecodeTargetLevel>

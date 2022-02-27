@@ -6,7 +6,6 @@ public class Book {
     private String cover;
     private String author;
 
-
     public Book(Integer id, String name, String cover, String author) {
         this.id = id;
         this.name = name;
@@ -49,12 +48,13 @@ public class Book {
         this.author = author;
     }
 
+
     @Override
     public String toString() {
         return "Book{" +
                 "id=" + id +
-                ", name'" + name + '\'' +
-                ", cover=" + cover + '\'' +
+                ", name='" + name + '\'' +
+                ", cover='" + cover + '\'' +
                 '}';
     }
 }

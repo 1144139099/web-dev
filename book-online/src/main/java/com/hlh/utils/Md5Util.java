@@ -4,6 +4,13 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Md5Util {
+    /**
+     * Encodes a string 2 MD5
+     *
+     * @param str String to encode
+     * @return Encoded String
+     * @throws NoSuchAlgorithmException
+     */
     public static String crypt(String str) {
         if (str == null || str.length() == 0) {
             throw new IllegalArgumentException("不能为空串或长度为0的字符串加密");

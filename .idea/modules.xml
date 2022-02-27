@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/book-online/book-online.iml" filepath="$PROJECT_DIR$/book-online/book-online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-servlet/day01-servlet.iml" filepath="$PROJECT_DIR$/day01-servlet/day01-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-dev.iml" filepath="$PROJECT_DIR$/web-dev.iml" />
     </modules>
