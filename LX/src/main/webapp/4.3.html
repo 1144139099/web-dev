@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>前后端分离POST请求——传JSON形式参数</title>
+</head>
+<body>
+<div class="parent">
+    <div class="child">
+        <label for="account">
+            账号：
+            <input type="text" name="account" placeholder="请输入账号" id="account"/>
+        </label>
+        <label for="password">密码：<input type="password" name="password" placeholder="请输入密码" id="password"/>
+        </label>
+        <label for="btn">
+            <input type="button" value="登录"id="btn"/>
+        </label>
+    </div>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    const btn = document.getElementById("btn");
+    btn.onclick = function () {
+        const account = document.getElementById("account");
+        const password = document.getElementById("password");
+        let obj = {
+            "account": account.value,
+            "password": password.value
+        }
+        axios.post('/login1', obj)
+            .then(function (response) {
+                alert(JSON.stringify(response.data))
+            }).catch(function (error) {
+                alert(JSON.stringify(error));
+            });
+    }
+</script>
+</body>
+</html>
