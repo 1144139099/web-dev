@@ -80,7 +80,9 @@
     </template>
 
     <!-- 分页工具条 -->
-    <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange"
+    <el-pagination
+            @size-change="handleSizeChange"
+            @current-change="handleCurrentChange"
                    :current-page="currentPage" :page-sizes="[5,10,15,20]" :page-size="10"
                    layout="total.size,prev,pager,next,jumper" :total="totalCount">
     </el-pagination>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单上传文件</title>
+    <link href="css/style.css"rel="stylesheet">
+</head>
+<body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<h2>表单上传文件</h2>
+<div class="parent">
+    <form action="/upload" method="post" enctype="multipart/form-data" class="child">
+        <label for="account">
+            账号:
+            <input type="text" name="account" placeholder="请输入账号" id="account"/>
+        </label>
+        <label for="password">
+            密码:
+            <input type="password" name="password" placeholder="请输入密码" id="password"/>
+        </label>
+        <span class="file">选择文件
+        <input type="file" name="file" id="uploadFile">
+        </span>
+        <label for="sub-btn">
+            <input type="submit" value="上传" id="sub-btn"/>
+        </label>
+    </form>
+</div>
+</body>
+</html>

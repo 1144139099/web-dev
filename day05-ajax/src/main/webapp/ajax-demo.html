@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax请求示例起步--原生JS异步请求</title>
+</head>
+<body>
+<button id="btn">dianji</button>
+<h1>下方是服务器返回的数据</h1>
+<hr>
+<h2 id="info"></h2>
+
+<script>
+
+    let btn = document.getElementById("btn");
+    btn.onclick = function (){
+        //创建核心对象
+        let xHttp;
+        if(window.XMLHttpRequest){
+            xHttp = new XMLHttpRequest();
+
+        }else {
+            xHttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        // setTimeout(fun(), 3000);
+
+        //发送请求
+        xHttp.open("GET","http://localhost:8080/ajaxServlet");
+        xHttp.send();
+        //获取响应
+        xHttp.onreadystatechange = function (){
+            if(this.readyState ===4 && this.status === 200){
+                let id = document.getElementById("info");
+                id.innerText = this.responseText;
+
+            }
+    }
+
+
+
+    };
+</script>
+</body>
+</html>

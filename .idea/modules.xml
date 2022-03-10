@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LX/LX.iml" filepath="$PROJECT_DIR$/LX/LX.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-online/book-online.iml" filepath="$PROJECT_DIR$/book-online/book-online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brand-case/brand-case.iml" filepath="$PROJECT_DIR$/brand-case/brand-case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comprehensive-exercise/comprehensive-exercise.iml" filepath="$PROJECT_DIR$/comprehensive-exercise/comprehensive-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01-servlet/day01-servlet.iml" filepath="$PROJECT_DIR$/day01-servlet/day01-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-request/day02-request.iml" filepath="$PROJECT_DIR$/day02-request/day02-request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-response/day03-response.iml" filepath="$PROJECT_DIR$/day03-response/day03-response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-cookie-session/day04-cookie-session.iml" filepath="$PROJECT_DIR$/day04-cookie-session/day04-cookie-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-ajax/day05-ajax.iml" filepath="$PROJECT_DIR$/day05-ajax/day05-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-filter-listener/day06-filter-listener.iml" filepath="$PROJECT_DIR$/day06-filter-listener/day06-filter-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-dev.iml" filepath="$PROJECT_DIR$/web-dev.iml" />
     </modules>

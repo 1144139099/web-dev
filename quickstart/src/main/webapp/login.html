@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单向后台提交参数</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<h2>表单向后台提交参数</h2>
+<div class="parent">
+    <form action="/login" method="post" enctype="application/x-www-form-urlencoded" class="child">
+        <label for="account">
+            账号:
+            <input type="text" name="account" placeholder="请输入账号" id="account"/>
+        </label>
+        <label for="password">
+            密码:
+            <input type="password" name="password" placeholder="请输入密码" id="password"/>
+        </label>
+        <label for="sub-btn" style="margin-left: 50px ;">
+            <input type="submit" id="sub-btn" value="登录"/>
+        </label>
+    </form>
+</div>
+
+</body>
+</html>

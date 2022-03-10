@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day06-filter-listener:war">
+    <output-path>$PROJECT_DIR$/day06-filter-listener/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>day06-filter-listener</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="day06-filter-listener-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="day06-filter-listener:war exploded" />
+    </root>
+  </artifact>
+</component>

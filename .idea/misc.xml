@@ -10,6 +10,14 @@
         <option value="$PROJECT_DIR$/quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/book-online/pom.xml" />
         <option value="$PROJECT_DIR$/day01-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/day02-request/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-response/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-cookie-session/pom.xml" />
+        <option value="$PROJECT_DIR$/comprehensive-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/day05-ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/LX/pom.xml" />
+        <option value="$PROJECT_DIR$/day06-filter-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-case/pom.xml" />
       </list>
     </option>
   </component>

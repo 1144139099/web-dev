@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="btn">请求</button>
+<h2 id="info">请求数据</h2>
+<script>
+    document.getElementById("btn").onclick = function (){
+        axios({
+            method:"get",
+                url: "/ajaxServlet?username=zhangsan"
+        }
+        ).then(function (resp){
+            document.getElementById("info").innerText = JSON.stringify(resp.data);
+        });
+    };
+</script>
+</body>
+</html>
